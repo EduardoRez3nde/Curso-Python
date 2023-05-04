@@ -1,0 +1,47 @@
+============== MANIPULANDO DE TEXTO =============
+FATIAMENTO :
+
+ANALISE:
+    len() : comprimento da frase
+    EX: len(frase)
+
+    count() : vai contar quantas vezer aparece o valor
+    EX: frase.count('o')    #quantos 'o' tem na frase
+    EX: frase.count('o',0,13) #irá contar quantos 'o' dentro do fatiamento.
+
+    find(): #aparece onde foi encontrada a primeira vez
+    EX: frase.find('deo')
+
+    in:
+    EX: 'Curso' in frase    #Se dentro da variavel frase tem a palavra 'curso'
+
+TRANSFORMAÇÃO:
+    replace() : subtitui uma palavra por outra
+    EX: frase.('Python', 'Android') #Substitui a palavra 'Python por 'Android'
+    #OBS: frase = frase.replace('Python', 'Android') para poder 'substituir'.
+
+    upper() : #A palavra ficara toda maiusculas
+    EX: frase.upper()
+
+    lower() : #A palavra ficara toda e minusculas
+    EX: frase.lower()
+
+    capitalize() : #Colocará todas as letras para minusculas e somente o primeiro caractere maiusculo
+    EX: 'Curso em video' #somente o 'C' maiusculo
+
+    title() : #Colocará cada caractere apos o 'espaço'
+    em maiusculas.
+    EX: 'Curso Em Video'
+
+    strip() : #Vai remover todos os espaços da esquerda e direita
+    rstrip() :  #Remove os espaços da direita
+    lstrip() :  #Remove os espaços da esquerda
+
+DIVISÃO:
+    split() : #usara os espaços para dividir uma palavra em varias palavras
+    EX: 'Curso', 'em', 'Video'  #
+
+Junção:
+    join() : #Juntara uma coisa na outra
+    EX: '-'.join(frase) #colocara o '-' no lugar dos espaços.
+

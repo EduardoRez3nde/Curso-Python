@@ -1,0 +1,14 @@
+================= TIPOS PRIMITIVOS ================
+BASICOS : INT / FLOAT / BOOLEAN / STR
+
+type() : para verificar o tipo da variavel
+EX:
+    print(type(n))
+
+METODOS DE TIPOS: Retorna True ou False.
+    # isspace() : se tiver somente 'espaços'
+    # isnumeric() : verifica se e somente numeros
+    # isalfa() : se tiver somente alfabetos
+    # isalnum() : se tem letras e numeros
+    # istitle() : verifica se a primeira letra e maiuscula.
+

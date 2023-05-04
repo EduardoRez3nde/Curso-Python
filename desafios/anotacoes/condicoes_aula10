@@ -1,0 +1,10 @@
+============ CONDIÇÕES IF, ELSE, ELIF ===============
+CONDIÇÃO SIMPLES:
+    IF: BLOCO VERDADEIRO
+    ELSE: BLOCO FALSO
+
+CONDIÇÃO SIMPLIFICADA:
+    EX: print('carro novo' if tempo <= 3 else 'carro velho')
+    Escreva carro novo se o tempo do carro for menor que 3 se não escreva carro velho.
+
+

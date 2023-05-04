@@ -1,0 +1,36 @@
+================ OPERADORES ARITMETICOS =============
++   Soma
+-   Subtração
+*   Multiplicação
+/   Divisão             # Ex: 5 / 2 = 2.5
+**  Potência
+//  Divisão Inteira     # Ex: 5 // 2 = 2
+%   Resto da Divisão    # Ex: 5 / 2 = 1 resto
+=============== ORDEM DE PRECEDÊNCIA =================
+1-  ()
+2-  **
+3-  *  /  //  %      qual vier primeiro
+4-  +   -            qual vier primeiro
+
+81**(1/2)   Calcula a Raiz quadrada de 81 por exemplo
+81**(1/3)   Calcula a Raiz ao cubo.
+----------------------------------------------------
+PARA ALINHAR O VALOR NO INPUT:
+EX: Irá alinha o texto a direita em 20 de espaço
+    print('prazer em te conhecer {nome: >20}')
+
+    # Centraliza o valor
+    print('prazer em te conhecer {nome: ^20}')
+
+    # Centraliza ex: ======Eduardo======
+    print('prazer em te conhecer {nome: =^20}')
+--------------------------------------------------------
+COLOCAR O NUMERO FLOAT COM MENOS OU MAIS CASAS DECIMAIS:
+EX:
+    print('prazer em te conhecer {num:.3f}')
+    saida: 1.333
+ -----------------------------------------------------------------
+end= '' : Não quebra linha manten os dois prints na mesma linha.
+\n : para quebrar linha.
+
+

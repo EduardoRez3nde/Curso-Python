@@ -1,0 +1,6 @@
+nome = str(input('Seu Nome: '))
+print(f'Nome em maisculas: {nome.upper()} ')
+print(f'Nome em minusculas: {nome.lower()}')
+print(f'Quantidade de letras excluindo espaços: {len(nome.replace(" ", ""))}')
+primeiro = nome.split()
+print(f'O primerio nome é {primeiro[0]} e tem {len(primeiro[0])} letras')

@@ -1,0 +1,22 @@
+============ TRABALHANDO COM MODULOS ===============
+import : Para importar uma biblioteca
+from : para importar somente uma, duas... funçoes da biblioteca
+EX:
+    import math     #importa todas as funçoes
+    from math import ceil   #importa somente a função ceil
+
+-------------------------------------------------
+ceil() : arredonda pra cima
+floor() : arredonda pra baixo
+trunc() :   Elimina da ',' para frente
+pow()   :   calcula a potência
+sqrt()  :   calcular a raiz quadrada  EX: raiz = math.sqrt(num)
+factorial() :   calcula o fatorial de um numero
+-------------------------------------------------------
+import random
+
+random()    # Gera numeros aleatorios float
+randint(1, 11)  # gera numeros inteiros aleatorios por exemplo de 1 á 10
+
+acessar python.org : para acessar todas as bibliotecas
+#pypi   modulos da comunidade
