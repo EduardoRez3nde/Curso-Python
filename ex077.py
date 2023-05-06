@@ -8,6 +8,6 @@ lista = ('HardDisk', 250, 'Memoria Ram', 190, 'SSD-480GB', 350,
 for v in range(len(lista)):
     if v % 2 == 0:
         print(f'{lista[v]:.<30}R$   ', end='')
-    if v % 2 == 1:
+    elif v % 2 == 1:
         print(f'{lista[v]:.2f}')
 print('='*45)
